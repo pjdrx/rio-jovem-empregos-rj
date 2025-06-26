@@ -1,4 +1,3 @@
-
 import { MapPin, Mail, Phone, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
                 <MapPin className="h-6 w-6 text-white" />
               </div>
               <h3 className="ml-3 text-xl font-bold">
-                RJ Jovem <span className="text-blue-400">Aprendiz</span>
+                Contrato <span className="text-blue-400">Direto</span>
               </h3>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
@@ -48,7 +47,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-gray-400 mr-3" />
-                <span className="text-gray-300">contato@rjjovemaprendiz.com.br</span>
+                <span className="text-gray-300">contato@contratodireto.com.br</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-gray-400 mr-3" />
@@ -67,7 +66,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 RJ Jovem Aprendiz. Todos os direitos reservados.
+            © 2024 Contrato Direto. Todos os direitos reservados.
             <span className="mx-2">|</span>
             <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
             <span className="mx-2">|</span>

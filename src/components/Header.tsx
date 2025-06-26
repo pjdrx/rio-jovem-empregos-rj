@@ -15,7 +15,7 @@ const Header = () => {
                 <MapPin className="h-6 w-6 text-white" />
               </div>
               <h1 className="ml-3 text-xl font-bold text-gray-900">
-                RJ Jovem <span className="text-blue-600">Aprendiz</span>
+                Contrato <span className="text-blue-600">Direto</span>
               </h1>
             </div>
           </div>
