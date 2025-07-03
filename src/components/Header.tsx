@@ -20,6 +20,12 @@ const Header = () => {
             </div>
           </div>
           
+          <div className="hidden lg:flex items-center">
+            <p className="text-gray-600 text-sm font-medium mr-8">
+              Descubra quem vai revolucionar seu time
+            </p>
+          </div>
+          
           <nav className="hidden md:flex space-x-8">
             <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
               Vagas
@@ -53,6 +59,11 @@ const Header = () => {
         
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
+            <div className="mb-4 px-3">
+              <p className="text-gray-600 text-sm font-medium">
+                Descubra quem vai revolucionar seu time
+              </p>
+            </div>
             <nav className="flex flex-col space-y-2">
               <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">
                 Vagas
