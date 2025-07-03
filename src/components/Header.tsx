@@ -11,32 +11,32 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <div className="bg-gradient-to-r from-blue-600 to-green-600 p-2 rounded-lg">
+              <div className="bg-gradient-to-r from-purple-600 to-teal-500 p-2 rounded-lg">
                 <MapPin className="h-6 w-6 text-white" />
               </div>
               <h1 className="ml-3 text-xl font-bold text-gray-900">
-                Contrato <span className="text-blue-600">Direto</span>
+                Contrato <span className="text-purple-600">Direto</span>
               </h1>
             </div>
           </div>
           
           <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
               Vagas
             </a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
               Empresas
             </a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
               Sobre
             </a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
               Contato
             </a>
           </nav>
           
           <div className="hidden md:flex items-center space-x-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+            <button className="bg-gradient-to-r from-purple-600 to-teal-500 hover:from-purple-700 hover:to-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
               Publicar Vaga
             </button>
           </div>
@@ -44,7 +44,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-blue-600 p-2"
+              className="text-gray-700 hover:text-purple-600 p-2"
             >
               <Menu className="h-6 w-6" />
             </button>
@@ -54,19 +54,19 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col space-y-2">
-              <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+              <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">
                 Vagas
               </a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+              <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">
                 Empresas
               </a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+              <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">
                 Sobre
               </a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+              <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">
                 Contato
               </a>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors mt-2">
+              <button className="bg-gradient-to-r from-purple-600 to-teal-500 hover:from-purple-700 hover:to-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors mt-2">
                 Publicar Vaga
               </button>
             </nav>
