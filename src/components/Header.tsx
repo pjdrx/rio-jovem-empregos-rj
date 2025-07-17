@@ -1,6 +1,7 @@
 
 import { MapPin, Search, Menu } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,9 +37,11 @@ const Header = () => {
           </nav>
           
           <div className="hidden md:flex items-center space-x-4">
-            <button className="bg-gradient-to-r from-purple-600 to-teal-500 hover:from-purple-700 hover:to-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-              Descubra quem vai revolucionar seu time
-            </button>
+            <Link to="/apprentices">
+              <button className="bg-gradient-to-r from-purple-600 to-teal-500 hover:from-purple-700 hover:to-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                Descubra quem vai revolucionar seu time
+              </button>
+            </Link>
             <button className="border border-purple-600 text-purple-600 hover:bg-purple-50 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
               Publicar Vaga
             </button>
@@ -69,10 +72,12 @@ const Header = () => {
               <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">
                 Contato
               </a>
-              <button className="bg-gradient-to-r from-purple-600 to-teal-500 hover:from-purple-700 hover:to-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors mt-2">
-                Descubra quem vai revolucionar seu time
-              </button>
-              <button className="border border-purple-600 text-purple-600 hover:bg-purple-50 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+              <Link to="/apprentices">
+                <button className="bg-gradient-to-r from-purple-600 to-teal-500 hover:from-purple-700 hover:to-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors mt-2 w-full">
+                  Descubra quem vai revolucionar seu time
+                </button>
+              </Link>
+              <button className="border border-purple-600 text-purple-600 hover:bg-purple-50 px-4 py-2 rounded-lg text-sm font-medium transition-colors w-full">
                 Publicar Vaga
               </button>
             </nav>
