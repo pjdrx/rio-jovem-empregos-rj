@@ -20,12 +20,6 @@ const Header = () => {
             </div>
           </div>
           
-          <div className="hidden lg:flex items-center">
-            <p className="text-gray-600 text-sm font-medium mr-8">
-              Descubra quem vai revolucionar seu time
-            </p>
-          </div>
-          
           <nav className="hidden md:flex space-x-8">
             <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
               Vagas
@@ -43,6 +37,9 @@ const Header = () => {
           
           <div className="hidden md:flex items-center space-x-4">
             <button className="bg-gradient-to-r from-purple-600 to-teal-500 hover:from-purple-700 hover:to-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+              Descubra quem vai revolucionar seu time
+            </button>
+            <button className="border border-purple-600 text-purple-600 hover:bg-purple-50 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
               Publicar Vaga
             </button>
           </div>
@@ -59,11 +56,6 @@ const Header = () => {
         
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
-            <div className="mb-4 px-3">
-              <p className="text-gray-600 text-sm font-medium">
-                Descubra quem vai revolucionar seu time
-              </p>
-            </div>
             <nav className="flex flex-col space-y-2">
               <a href="#" className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">
                 Vagas
@@ -78,6 +70,9 @@ const Header = () => {
                 Contato
               </a>
               <button className="bg-gradient-to-r from-purple-600 to-teal-500 hover:from-purple-700 hover:to-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors mt-2">
+                Descubra quem vai revolucionar seu time
+              </button>
+              <button className="border border-purple-600 text-purple-600 hover:bg-purple-50 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
                 Publicar Vaga
               </button>
             </nav>
